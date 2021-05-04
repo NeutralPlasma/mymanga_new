@@ -1,5 +1,5 @@
 <?php
-require_once "DB_Controller.php";
+require_once "DBController.php";
 
 class TagController{
 
