@@ -1,0 +1,28 @@
+{
+ 	"name": "pecee/simple-router-demo",
+ 	"description": "Simple router demo project",
+ 	"keywords": [
+		"simple-router",
+		"php",
+		"php-simple-router"
+	],
+	"license": "MIT",
+	"type": "project",
+	"require": {
+		"php": ">=7.1",
+		"pecee/simple-router": "^4.0",
+ 	 	"jenssegers/blade": "^1.4",
+ 	 	"rakit/validation": "^1.4",
+		"ext-pdo": "*",
+ 	 	"phpauth/phpauth": "dev-master"
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+    "autoload": {
+      "psr-4": {
+		  "Virtus\\": "app/",
+		  "Core\\": "core/"
+      }
+    }
+}
